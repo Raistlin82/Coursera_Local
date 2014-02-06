@@ -8,7 +8,7 @@
     <string name="perms_button1">Get Bookmarks</string>
     <string name="perms_button2">Go To DangerousActivity</string>
     <string name="place_holder">Bookmarks Go Here</string>
-    <string name="title_activity_customization">Customization</string>
+    <string name="about_to_start">About to start Dangerous stuff</string>
     <string name="cust_button1">Start Dangerous Activity</string>
     <string name="cust_message">This button will load a Dangerous Level activity</string>
 

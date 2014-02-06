@@ -26,6 +26,7 @@ public final class R {
         public static final int go_to_dangerous_activity=0x7f030002;
     }
     public static final class string {
+        public static final int about_to_start=0x7f040007;
         public static final int app_name=0x7f040000;
         public static final int cust_button1=0x7f040008;
         public static final int cust_message=0x7f040009;
@@ -33,7 +34,6 @@ public final class R {
         public static final int perms_button1=0x7f040004;
         public static final int perms_button2=0x7f040005;
         public static final int place_holder=0x7f040006;
-        public static final int title_activity_customization=0x7f040007;
         public static final int title_main=0x7f040001;
         public static final int title_permissions=0x7f040003;
     }

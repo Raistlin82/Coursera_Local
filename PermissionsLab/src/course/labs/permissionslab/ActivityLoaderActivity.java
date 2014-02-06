@@ -1,13 +1,16 @@
 package course.labs.permissionslab;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+@TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 public class ActivityLoaderActivity extends Activity {
 
 	private static final String TAG = "Lab-Permissions";
@@ -32,7 +35,8 @@ public class ActivityLoaderActivity extends Activity {
 		
 		Log.i(TAG, "Entered startBookMarksActivity()");
 	
-		// TODO - Start the BookmarksActivity
+		Intent startBookmanrkActivity = new Intent(ActivityLoaderActivity.this, BookmarksActivity.class);
+		this.startActivity(startBookmanrkActivity);
 
 	}
 }
