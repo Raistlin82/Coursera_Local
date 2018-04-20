@@ -108,3 +108,6 @@ public class Test1 extends ActivityInstrumentationTestCase2<ActivityOne> {
 
 	}
 }
+
+
+//////
